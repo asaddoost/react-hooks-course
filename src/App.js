@@ -7,11 +7,18 @@ import ImperativeHandle from "./UseImperativeHandle/ImperativeHandle";
 import RefTutorial from "./UseRef/RefTutorial";
 import MemoTutorial from "./UseMemo/MemoTutorial";
 import CallBackTutorial from "./UseCallback/CallbackTutorial";
+import LayoutEffectTutorial from './UseLayoutEffect/LayoutEffectTutorial';
 
 function App() {
   return (
     <div className="App">
-      <StateTutorial />
+      {/* <StateTutorial /> */}
+      {/* <ReducerTutorial /> */}
+      {/* <EffectTutorial /> */}
+      {/* <RefTutorial /> */}
+      {/* <LayoutEffectTutorial /> */}
+      {/* <ImperativeHandle /> */}
+      <ContextTutorial />
     </div>
   );
 }

@@ -1,6 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: b;
+}
+body {
+  background-color: rgb(28, 143, 158);
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  padding-top: 2rem;
 }
 
 .App-logo {
